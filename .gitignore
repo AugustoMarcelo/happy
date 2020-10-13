@@ -8,6 +8,9 @@ node_modules
 
 # production
 /build
+ormconfig.json
+database.sqlite
+/**/uploads/*.jpg
 .env
 
 # misc
