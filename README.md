@@ -1,5 +1,7 @@
 <h1 align="center">
   <img alt="Happy" src="https://res.cloudinary.com/augustomarcelo/image/upload/v1602521339/happy-logo_l827ol.svg" />
+  <br />
+  3rd Next Level Week
 </h1>
 
 <p align="center">
@@ -12,6 +14,16 @@
 ## :gear: Technologies
 
 This project was developed during Next Level Week #3 with the following technologies:
+
+- **Back-end**
+  - [cors](https://github.com/expressjs/cors)
+  - [dotenv](https://github.com/motdotla/dotenv)
+  - [express](https://expressjs.com/pt-br/)
+  - [express-async-errors](https://github.com/davidbanham/express-async-errors)
+  - [multer](https://github.com/expressjs/multer)
+  - [sqlite3](https://www.sqlite.org/index.html)
+  - [typeorm](https://typeorm.io/)
+  - [yup](https://github.com/jquense/yup)
 
 - **Front-end**
   - [ReactJS](https://reactjs.org/)
@@ -36,6 +48,20 @@ This project was developed during Next Level Week #3 with the following technolo
 
     # running web project
     yarn start
+
+    ---
+
+    # enter backend folder
+    cd backend
+
+    # download dependencies
+    yarn
+
+    # run migrations to create tables
+    yarn typeorm migration:run
+
+    # running backend
+    yarn dev
   ```
 
 ---
