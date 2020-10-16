@@ -33,6 +33,12 @@ This project was developed during Next Level Week #3 with the following technolo
   - [react-icons](https://react-icons.github.io/react-icons/)
   - [leaflet](https://leafletjs.com/)
   - [react-leaflet](https://react-leaflet.js.org/)
+  - [axios](https://github.com/axios/axios)
+
+- **Mobile**
+  - [Expo](https://docs.expo.io/)
+  - [Typescript][ts]
+  - [axios](https://github.com/axios/axios)
 
 ## :computer: How to run
 
@@ -62,6 +68,20 @@ This project was developed during Next Level Week #3 with the following technolo
 
     # running backend
     yarn dev
+
+    ---
+    # You will need to have the Expo app installed
+
+    # enter mobile folder
+    cd mobile
+
+    # download dependencies
+    yarn
+
+    # running app
+    yarn start
+
+    # When the metro bundler opens, scan the qrcode
   ```
 
 ---
